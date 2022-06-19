@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    background: #23424A;
+    color: white;
+    width: 80%;
+    max-width: 750px;
+    margin: 0 auto;
+    /* height: 300px; avoid give fix size for elements */
+    padding: 3em;
+}
+
+.content-intro {
+    width: 50%;
+
+}

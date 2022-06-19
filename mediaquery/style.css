@@ -1,0 +1,47 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+}
+
+
+.example {
+    width: 90%;
+    margin: 5em auto;
+    padding: 10em 0;
+    background: steelblue;
+    background-color: purple;
+}
+
+
+/* 600px or bigger */
+@media (min-width: 600px) {
+    .example {
+        background-color: olivedrab;
+    }
+}
+
+/* 800px or bigger */
+@media (min-width: 800px) {
+    .example {
+        background-color: orangered;
+    }
+}
+
+
+
+
+
+/* 600px or smaller */
+@media (max-width:600px) {
+    
+}
+
+/* this will work on from 600px to 900px */
+@media (min-width:600px) and (max-width:900px) {
+    
+}
